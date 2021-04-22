@@ -1,10 +1,10 @@
 {
-  "name": "insight-ui-DYN",
+  "name": "insight-ui-dyn",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the DYN network and build your own services with it.",
   "version": "0.4.2",
   "repository": {
     "type": "git",
-    "url": "git://github.com/duality-solutions/insight-ui-DYN.git"
+    "url": "git://github.com/duality-solutions/insight-ui-dyn.git"
   },
   "contributors": [
     {
@@ -38,12 +38,12 @@
     {
       "name": "wkibbler",
       "email": "william.kibbler@protonmail.com"
-    }           
+    }
   ],
   "bugs": {
-    "url": "https://github.com/duality-solutions/insight-ui-DYN/issues"
+    "url": "https://github.com/duality-solutions/insight-ui-dyn/issues"
   },
-  "homepage": "https://github.com/duality-solutions/insight-ui-DYN",
+  "homepage": "https://github.com/duality-solutions/insight-ui-dyn",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -53,7 +53,7 @@
     "bitcore",
     "front-end"
   ],
-  "bitcoreNode": "bitcore-node-DYN",
+  "bitcoreNode": "bitcore-node-dyn",
   "dependencies": {},
   "devDependencies": {
     "bower": "~1.2.8",

@@ -1,6 +1,6 @@
 # Insight UI
 
-A Dynamic blockchain explorer web application service for [Dynamic Bitcore Node](https://github.com/wkibbler/bitcore-node-DYN) using the [Dynamic Insight API](https://github.com/wkibbler/insight-api-DYN).
+A Dynamic blockchain explorer web application service for [Dynamic Bitcore Node](https://github.com/syyyn/bitcore-node-dyn) using the [Dynamic Insight API](https://github.com/syyyn/insight-api-dyn).
 
 ## Quick Start
 
@@ -11,13 +11,13 @@ Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-git clone https://github.com/wkibbler/bitcore-node-DYN.git
-cd bitcore-node-DYN
+git clone https://github.com/syyyn/bitcore-node-dyn.git
+cd bitcore-node-dyn
 npm install
 bitcore-node create mynode
 cd mynode
-bitcore-node install insight-api-DYN
-bitcore-node install insight-ui-DYN
+bitcore-node install insight-api-dyn
+bitcore-node install insight-ui-dyn
 bitcore-node start
 ```
 
@@ -72,11 +72,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/wkibbler/insight-api-DYN) configuration and end-points, go to [Insight API GitHub repository](https://github.com/wkibbler/insight-api-DYN).
+For more details about the [Insight API](https://github.com/syyyn/insight-api-dyn) configuration and end-points, go to [Insight API GitHub repository](https://github.com/syyyn/insight-api-dyn).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/wkibbler/insight-ui-DYN).
+Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/syyyn/insight-ui-DYN).
 
 
 ## License
