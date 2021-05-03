@@ -4,7 +4,7 @@
   "version": "0.4.2",
   "repository": {
     "type": "git",
-    "url": "git://github.com/duality-solutions/insight-ui-dyn.git"
+    "url": "git://github.com/syyyn/insight-ui-dyn.git"
   },
   "contributors": [
     {
@@ -38,12 +38,16 @@
     {
       "name": "wkibbler",
       "email": "william.kibbler@protonmail.com"
+    },
+    {
+      "name": "syyyn",
+      "email": "syn@synister.dev"
     }
   ],
   "bugs": {
-    "url": "https://github.com/duality-solutions/insight-ui-dyn/issues"
+    "url": "https://github.com/syyyn/insight-ui-dyn/issues"
   },
-  "homepage": "https://github.com/duality-solutions/insight-ui-dyn",
+  "homepage": "https://github.com/syyyn/insight-ui-dyn",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -57,15 +61,15 @@
   "dependencies": {},
   "devDependencies": {
     "bower": "~1.2.8",
-    "grunt": "~0.4.2",
-    "grunt-cli": "~0.1.11",
-    "grunt-contrib-jshint": "~0.8.0",
+    "grunt": "^0.4.2",
+    "grunt-angular-gettext": "^0.2.15",
+    "grunt-cli": "^0.1.11",
     "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-uglify": "~0.3.2",
     "grunt-contrib-watch": "*",
+    "grunt-css": "^0.5.4",
     "grunt-macreload": "*",
-    "grunt-css": "~0.5.4",
-    "grunt-markdown": "~0.5.0",
-    "grunt-angular-gettext": "^0.2.15"
+    "grunt-markdown": "~0.5.0"
   }
 }

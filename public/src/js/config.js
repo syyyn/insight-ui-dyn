@@ -46,6 +46,20 @@ angular.module('insight').config(function($routeProvider) {
     when('/messages/verify', {
       templateUrl: 'views/messages_verify.html',
       title: 'Verify Message'
+    }).
+    when('/stats', {
+      templateUrl: 'views/statistics.html',
+      title: 'Stats'
+    }).
+    when('/stats/:type/:days', {
+      controller: 'StatisticsController',
+      templateUrl: 'views/chart.html',
+      title: 'Statistics'
+    }).
+    when('/rich-list', {
+      controller: 'RichListController',
+      templateUrl: 'views/rich_list.html',
+      title: 'Rich List'
     })
     .otherwise({
       templateUrl: 'views/404.html',

@@ -21,6 +21,9 @@ angular.module('insight.system').controller('HeaderController',
     }, {
       'title': 'Status',
       'link': 'status'
+    }, {
+      'title': gettextCatalog.getString('Rich List'),
+      'link': 'rich-list',
     }];
 
     $scope.openScannerModal = function() {
